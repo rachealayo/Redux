@@ -1,0 +1,18 @@
+[
+    {
+        "text":"Hello world",
+        "desc": "dddddddddssssss",
+        "img" : "/marvel.png"
+    },
+    {
+        "text":"This is json data",
+        "desc": "bbbbbbbbbbbb",
+        "img" : "/slider-scales.jpg"
+    },
+    {
+        "text":"Welcome to react",
+        "desc": "ccccccccccccc",
+        "img" : "/starwars.png"
+    }
+    
+]

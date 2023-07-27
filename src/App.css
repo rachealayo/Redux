@@ -1,0 +1,488 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ background-color: gainsboro;
+}
+.App{
+  width: 100%;
+  background-color: white;
+  font-family: Calibri;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Header-Contain{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.Header-Contain-Wrapper1{
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer; 
+}
+.Logo{
+  width: 15%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1{
+  color: orange;
+  font-weight: 600;
+}
+.Search-hold{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+input{
+  width: 85%;
+  height: 40px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid gainsboro;
+  padding-left: 15px;
+  font-size: 15px;
+  outline: 0;
+}
+.Search-icon{
+  width: 5%;
+  height: 40px;
+  border-radius: 0 3px  3px 0;
+  border: 1px solid gainsboro;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+}
+.Customer-Info{
+  width: 20%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.Left{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.Mid{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.Right{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  cursor: pointer;
+}
+.Cart-Icon{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.Cart{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.Header-Contain-Wrapper2{
+  width: 70%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer; 
+}
+.navs{
+  list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.Icon{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+ navs{
+  display: none;
+ }
+
+ .Icon{
+  display: flex;
+ }
+}
+@media screen and (max-width: 425px) {
+  .Card{
+    width: 90%;
+  }
+}
+.Dropnavs{
+  background: dimgray;
+  position: absolute;
+  width: 70%;
+  height: 50vh;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+.Hero{
+  width: 100%;
+  max-height: max-content;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.Wrapper{
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+.LeftHero{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.LeftHero-Wrapper{
+        width: 95%;
+}
+.LeftHero-Top{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+}
+.LeftHero1{
+        width: 45%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+} 
+h2{
+        font-size: 30px;
+        margin-bottom: 15px ;
+}
+span{
+        color: orange;
+}
+p{
+        color: gray;
+}   
+.LeftHero2{
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.LeftHero2-img{
+        width:  100%;
+        height: 100%;
+}
+.LeftHero-Bottom{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.Product-Card-Wrap{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.Product-Card{
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 1rem;
+  border: 1px solid silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+.product-card-img{
+  width: 80%;
+  height: 80%;
+}
+.Plus{
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: orange;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+.RightHero{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;
+  border-left: 2px solid orange;
+}
+.RightHero-Wrapper{
+        width: 80%;
+        background-color:white;
+}
+.Price{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.Qty{
+  width: 70px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-top: 30px;
+  outline: 0;
+}
+.Add{
+  width: 100%;
+  height: 45px;
+  border: 1px solid royalblue;
+  background-color: royalblue;
+  color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+}
+.Opt{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.Option{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.Line{
+  width: 45%;
+  border: 1px solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.Checkout{
+  width: 100%;
+  height: 45px;
+  border: 1px solid limegreen ;
+  background-color: limegreen;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+}
+.Like{
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-top: 30px;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.No-of-Likes{
+  width:  50px;
+  height: 25px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+.Link{
+  text-decoration: none;
+}
+
+
+
+
+
+
+.cartHold{
+  width:  100%;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartHoldWrapper{
+  width:  95%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.LeftCartHold{
+  width:  70%;
+  height: 50%;
+}
+.LeftCart{
+  width:  950px;
+  height: 200px;
+  background-color:white;
+  border-radius:  5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.LeftCartWrap{
+  width:  95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.LeftCartTop{
+  width:  100%;
+  height: 70%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LeftCartBottom{
+  width:  10%;
+  display: flex;
+  justify-content: space-around;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: orange;
+  background-color: transparent;
+}
+.LeftCart1{
+width: 70%;
+height: 80%;
+display: flex;
+}
+.ImageHold{
+  width: 100%;
+  height: 100%;
+  padding-right: 10px;
+}
+.LeftCart2{
+  width: 20%;
+}
+.RightCart{
+  height: 25%;
+  width:  25%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: fixed;
+  right: 30px;
+  margin-top: 10px;
+}
+.RightCartWrapper{
+  width:  95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subtotal{
+  height: 20%;
+  width:  95%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:  1px solid silver;
+}
+.checkout{
+  height: 35px;
+  width:  100%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+

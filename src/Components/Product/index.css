@@ -1,0 +1,91 @@
+.Container-app{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex  ;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+}
+.Wrapper-app{
+    width: 90%;
+    margin-top: 20px;
+    /* background-color: gold; */
+    display:  flex;
+    justify-content:  space-between;
+    align-items:  center;
+    flex-wrap: wrap;
+}
+.Item-card{
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.Top{
+    width: 100%;
+    height: 55%;
+    border-radius: 10px 10px  0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Image-hold{
+    width: 90%;
+    height: 90%;
+}
+.Bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Text-hold{
+    width: 90%;
+    height: 90%;
+    display:  flex;
+    justify-content:  center;
+}
+
+.productimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.Btn-primary{
+    width:  100%;
+    height:  30%;
+    display:  flex;
+    justify-content:  flex-end;
+    flex: 1;
+    align-items: center;
+}
+.Cart-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.Cart-btn:hover{
+    color: orange;
+    border: 1px solid orange;
+    background-color: white;
+}
+
+.Moving-text{
+    width: 400px;
+    font-size: 25px;
+    font-weight: 500;
+}
